@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeDexApp.RelativeLayout" Title="Relative Layout">
+    <ContentPage.Content>
+        <RelativeLayout>
+            <BoxView Color="Red" 
+                     x:Name="redBox"        
+                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.1,Constant=0}"
+                     RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+                     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.8,Constant=0}" />
+            <BoxView Color="Blue" 
+                     x:Name="blueBox"
+                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=redBox,Property=Y,Factor=1,Constant=50}"
+                     RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=redBox,Property=X,Factor=1,Constant=50}"
+                     RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.5,Constant=0}"
+                     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}" />
+            <BoxView Color="Pink" 
+                     x:Name="pinkBox" 
+                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=blueBox,Property=Y,Factor=0.8,Constant=200}"
+                     RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=blueBox,Property=X,Factor=0.8,Constant=200}"
+                     RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,Property=Width,Factor=1,Constant=0}"
+                     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView,Property=Height,Factor=1,Constant=0}" />
+            <Button BorderRadius="30" 
+                    BackgroundColor="Beige" 
+                    HeightRequest="60"
+                    WidthRequest="60" 
+                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=blueBox, Property=X, Factor=0,Constant=0}" 
+                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Factor=0, Property=Y, Constant=75}" />
+
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

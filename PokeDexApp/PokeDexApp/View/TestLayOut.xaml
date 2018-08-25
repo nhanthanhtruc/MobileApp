@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeDexApp.TestLayOut">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Label Text="This form for test layout of Xamarin Form"               
+               FontAttributes="Bold" 
+               FontSize="25"
+               BackgroundColor="White"
+               Grid.Row="0" 
+               Grid.Column="0"
+               Grid.ColumnSpan="2" />
+            <!--<BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="White" />-->
+            <Button Text="Stack Layout"        Clicked="ButtonStack_Clicked"      BackgroundColor="Pink"
+               FontSize="20"               
+               Grid.Row="1" 
+               Grid.Column="0"/>
+            <!--<BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="White" />-->
+            <Button Text="Relative Layout" Clicked="ButtonRelative_Clicked"          BackgroundColor="Beige"   
+               FontSize="20"               
+               Grid.Row="1" 
+               Grid.Column="1"/>
+            <!--<BoxView Grid.Row="2" Grid.Column="0" BackgroundColor="White" />-->
+            <Button Text="Grid"           Clicked="ButtonGrid_Clicked"   BackgroundColor="Aqua"
+               FontSize="20"               
+               Grid.Row="2" 
+               Grid.Column="0"/>
+            <!--<BoxView Grid.Row="2" Grid.Column="1" BackgroundColor="White" />-->
+            <Button Text="Absolute Layout"  Clicked="ButtonAbsolute_Clicked" BackgroundColor="CadetBlue"
+               FontSize="20"               
+               Grid.Row="2" 
+               Grid.Column="1"/>
+            <Button Text="Flex Layout"
+                    Clicked="ButtonFlex_Clicked"
+                    BackgroundColor="YellowGreen"
+                    FontSize="20"
+                    Grid.Row="3"
+                    Grid.Column="0" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeDexApp.StackLayout" Title="Stack Layout">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="30"
+                         Spacing="10">
+                <Label Text="Welcome to Stack Layout!"
+                       FontAttributes="Bold"
+                       FontSize="30" />
+                <BoxView BackgroundColor="Sienna"
+                         Margin="60" />
+                <BoxView BackgroundColor="Red"
+                         Margin="30,40" />
+                <BoxView BackgroundColor="Red"
+                         Margin="30,40,10,50" />
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

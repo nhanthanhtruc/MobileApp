@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeDexApp.FlexView">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column"
+                    AlignItems="Center"
+                    JustifyContent="SpaceEvenly">
+            <Label Text="Welcome to Flex Layout!"
+                   FontSize="Large" />
+            <!--<Image Source="{local:ImageResource WorkingWithImages.beach.jpg}" />-->
+            <Image Source="Arduino.png" Aspect="AspectFit"/>
+            <Button Text="Do-Nothing Button" />
+            <Label Text="Another Label" />
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>
