@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeDexApp.Views.DoctorDetails_Add">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save"
+                     Clicked="ButtonSave_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--<ffimageloading:CachedImage x:Name="Image"
+                                            HorizontalOptions="Center"
+                                            VerticalOptions="Center"
+                                            LoadingPlaceholder="Arduino.png"
+                                            Source="{Binding Image}"></ffimageloading:CachedImage>-->
+                <Entry Placeholder="Enter doctor name"
+                       x:Name="Name"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center" />
+                <Entry Placeholder="Enter doctor title"
+                       x:Name="Title"
+                       FontSize="Medium"
+                       VerticalOptions="Center" />
+                <Entry Placeholder="Enter doctor address"
+                       x:Name="Address"
+                       FontSize="Small"
+                       VerticalOptions="Center" />
+                <Entry Placeholder="Enter doctor phone"
+                       x:Name="Phone"
+                       FontSize="Small"
+                       VerticalOptions="Center" />                             
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

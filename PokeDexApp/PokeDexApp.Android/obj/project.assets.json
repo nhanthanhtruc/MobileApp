@@ -781,6 +781,22 @@
           "lib/MonoAndroid10/Plugin.DeviceInfo.dll": {}
         }
       },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12",
+          "Xamarin.Android.Support.Core.Utils": "25.4.0.2"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid71/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid71/Plugin.Media.dll": {}
+        }
+      },
       "Xam.Plugins.Messaging/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -1230,6 +1246,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
           "Xamarin.FFImageLoading.Svg": "2.4.3.840",
@@ -4362,6 +4379,29 @@
         "xam.plugin.deviceinfo.nuspec"
       ]
     },
+    "Xam.Plugin.Media/4.0.1.5": {
+      "sha512": "a5l/M2Tl06BqBX/uhM/pr+q1jDkh2tRQr5Ne9rjAuD9VYn5STE+7kVFTzIUNPMnMr9PZLJkWP5WAr/tBN5oepw==",
+      "type": "package",
+      "path": "xam.plugin.media/4.0.1.5",
+      "files": [
+        "lib/monoandroid71/Plugin.Media.dll",
+        "lib/monoandroid71/Plugin.Media.xml",
+        "lib/netstandard1.0/Plugin.Media.dll",
+        "lib/netstandard1.0/Plugin.Media.xml",
+        "lib/netstandard2.0/Plugin.Media.dll",
+        "lib/netstandard2.0/Plugin.Media.xml",
+        "lib/tizen40/Plugin.Media.dll",
+        "lib/tizen40/Plugin.Media.xml",
+        "lib/uap10.0.10240/Plugin.Media.dll",
+        "lib/uap10.0.10240/Plugin.Media.pri",
+        "lib/uap10.0.10240/Plugin.Media.xml",
+        "lib/xamarinios10/Plugin.Media.dll",
+        "lib/xamarinios10/Plugin.Media.xml",
+        "readme.txt",
+        "xam.plugin.media.4.0.1.5.nupkg.sha512",
+        "xam.plugin.media.nuspec"
+      ]
+    },
     "Xam.Plugins.Messaging/5.2.0": {
       "sha512": "oTBg4tZjkkLHuUuXaybC/pwi0SugrJeyZ7Nq60IAxBliO7FMYaPq9mmmPQvCAEwEhtWaZAjbBzwG/I71CcQrmA==",
       "type": "package",
@@ -5042,6 +5082,7 @@
     "MonoAndroid,Version=v8.1": [
       "Plugin.Permissions >= 3.0.0.12",
       "PokeDexApp >= 1.0.0",
+      "Xam.Plugin.Media >= 4.0.1.5",
       "Xam.Plugins.Messaging >= 5.2.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.v4 >= 27.0.2.1",
@@ -5097,6 +5138,10 @@
           "Plugin.Permissions": {
             "target": "Package",
             "version": "[3.0.0.12, )"
+          },
+          "Xam.Plugin.Media": {
+            "target": "Package",
+            "version": "[4.0.1.5, )"
           },
           "Xam.Plugins.Messaging": {
             "target": "Package",

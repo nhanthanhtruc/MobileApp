@@ -1,6 +1,7 @@
 ﻿using PokeDexApp.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,13 +14,13 @@ namespace PokeDexApp.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class DoctorPage : ContentPage
 	{ 
-        List<Doctor> doctor { get; set; }
+        public static ObservableCollection<Doctor> doctor { get; set; }
 		public DoctorPage ()
 		{
 			InitializeComponent ();
             if(doctor== null)
             {
-                doctor = new List<Doctor>()
+                doctor = new ObservableCollection<Doctor>()
                 {
                     new Doctor()
                     {
@@ -57,24 +58,29 @@ namespace PokeDexApp.Views
         }
         public void OnMore(object sender, EventArgs e)
         {
-            var mi = ((MenuItem)sender);
-            DisplayAlert("More Context Action", mi.CommandParameter + " more context action", "OK");            
-            doctor.Add(
-                new Doctor()
-                {
-                    Name = "Nhu Tran",
-                    Title = "Bac Si",
-                    Address = "Can Tho",
-                    Phone = "+84919165900",
-                    Image = "https://www.carwreckdoctor.com/hubfs/Car_Accident_Doctor.png?t=1534449952862"
-                }
-            );
+            //var mi = ((MenuItem)sender);
+            //DisplayAlert("More Context Action", mi.CommandParameter + " more context action", "OK");            
+            //doctor.Add(
+            //    new Doctor()
+            //    {
+            //        Name = "Nhu Tran",
+            //        Title = "Bac Si",
+            //        Address = "Can Tho",
+            //        Phone = "+84919165900",
+            //        Image = "https://www.carwreckdoctor.com/hubfs/Car_Accident_Doctor.png?t=1534449952862"
+            //    }
+            //);
+            Navigation.PushAsync(new DoctorDetails_Add());
         }
 
         public void OnDelete(object sender, EventArgs e)
         {
-            var mi = ((MenuItem)sender);
-            DisplayAlert("Delete Context Action", mi.CommandParameter + " delete context action", "OK");
+            
+            var bindingContext = ((MenuItem)sender).BindingContext;
+            var DeleteDoctor = (Doctor)bindingContext;
+            doctor.Remove(DeleteDoctor);
+            DisplayAlert("Delete", DeleteDoctor.Name+ " đã xóa", "OK");
+            
         }
     }
 }
