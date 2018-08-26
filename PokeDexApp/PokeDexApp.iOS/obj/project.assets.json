@@ -2,6 +2,40 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Acr.Support/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Acr.Support.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Acr.Support.iOS.dll": {}
+        }
+      },
+      "Acr.UserDialogs/6.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Acr.Support": "[2.1.0, 3.0.0)",
+          "BTProgressHUD": "[1.2.0.5, 2.0.0)",
+          "Splat": "[2.0.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll": {},
+          "lib/Xamarin.iOS10/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll": {},
+          "lib/Xamarin.iOS10/Acr.UserDialogs.dll": {}
+        }
+      },
+      "BTProgressHUD/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BTProgressHUD.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BTProgressHUD.dll": {}
+        }
+      },
       "GitInfo/2.0.1": {
         "type": "package",
         "build": {
@@ -131,6 +165,15 @@
             "assetType": "native",
             "rid": "win7-x86"
           }
+        }
+      },
+      "Splat/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Splat.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Splat.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -1010,7 +1053,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "6.5.1",
+          "Newtonsoft.Json": "9.0.1",
           "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
           "Xamarin.FFImageLoading.Svg": "2.4.3.840",
@@ -1028,6 +1074,40 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Acr.Support/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Acr.Support.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Acr.Support.iOS.dll": {}
+        }
+      },
+      "Acr.UserDialogs/6.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Acr.Support": "[2.1.0, 3.0.0)",
+          "BTProgressHUD": "[1.2.0.5, 2.0.0)",
+          "Splat": "[2.0.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll": {},
+          "lib/Xamarin.iOS10/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll": {},
+          "lib/Xamarin.iOS10/Acr.UserDialogs.dll": {}
+        }
+      },
+      "BTProgressHUD/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BTProgressHUD.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BTProgressHUD.dll": {}
+        }
+      },
       "GitInfo/2.0.1": {
         "type": "package",
         "build": {
@@ -1143,6 +1223,15 @@
         },
         "runtime": {
           "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "Splat/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Splat.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Splat.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -1948,7 +2037,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "6.5.1",
+          "Newtonsoft.Json": "9.0.1",
           "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
           "Xamarin.FFImageLoading.Svg": "2.4.3.840",
@@ -1966,6 +2058,40 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Acr.Support/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Acr.Support.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Acr.Support.iOS.dll": {}
+        }
+      },
+      "Acr.UserDialogs/6.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Acr.Support": "[2.1.0, 3.0.0)",
+          "BTProgressHUD": "[1.2.0.5, 2.0.0)",
+          "Splat": "[2.0.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll": {},
+          "lib/Xamarin.iOS10/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll": {},
+          "lib/Xamarin.iOS10/Acr.UserDialogs.dll": {}
+        }
+      },
+      "BTProgressHUD/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BTProgressHUD.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BTProgressHUD.dll": {}
+        }
+      },
       "GitInfo/2.0.1": {
         "type": "package",
         "build": {
@@ -2081,6 +2207,15 @@
         },
         "runtime": {
           "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "Splat/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Splat.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Splat.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -2886,7 +3021,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "6.5.1",
+          "Newtonsoft.Json": "9.0.1",
           "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
           "Xamarin.FFImageLoading.Svg": "2.4.3.840",
@@ -2904,6 +3042,40 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Acr.Support/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Acr.Support.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Acr.Support.iOS.dll": {}
+        }
+      },
+      "Acr.UserDialogs/6.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Acr.Support": "[2.1.0, 3.0.0)",
+          "BTProgressHUD": "[1.2.0.5, 2.0.0)",
+          "Splat": "[2.0.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll": {},
+          "lib/Xamarin.iOS10/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll": {},
+          "lib/Xamarin.iOS10/Acr.UserDialogs.dll": {}
+        }
+      },
+      "BTProgressHUD/1.2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/BTProgressHUD.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/BTProgressHUD.dll": {}
+        }
+      },
       "GitInfo/2.0.1": {
         "type": "package",
         "build": {
@@ -3019,6 +3191,15 @@
         },
         "runtime": {
           "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "Splat/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Splat.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Splat.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -3824,7 +4005,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "6.5.1",
+          "Newtonsoft.Json": "9.0.1",
           "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xam.Plugins.Messaging": "5.2.0",
           "Xamarin.FFImageLoading.Forms": "2.4.3.840",
           "Xamarin.FFImageLoading.Svg": "2.4.3.840",
@@ -3843,6 +4027,65 @@
     }
   },
   "libraries": {
+    "Acr.Support/2.1.0": {
+      "sha512": "Kq/+sDIUxyEcDxwIB6ijtaUWzp/KV68rdYVLHQ26au7q3Y+7fqiqE0571VALlbYHlXMtFRd8ap3VeLw4lf/GWQ==",
+      "type": "package",
+      "path": "acr.support/2.1.0",
+      "files": [
+        "acr.support.2.1.0.nupkg.sha512",
+        "acr.support.nuspec",
+        "lib/MonoAndroid10/Acr.Support.Android.dll",
+        "lib/MonoAndroid10/Acr.Support.Android.pdb",
+        "lib/Xamarin.iOS10/Acr.Support.iOS.dll",
+        "lib/Xamarin.tvOS10/Acr.Support.tvOS.dll",
+        "lib/Xamarin.tvOS10/Acr.Support.tvOS.dll.mdb",
+        "lib/Xamarin.tvOS10/Acr.Support.tvOS.pdb"
+      ]
+    },
+    "Acr.UserDialogs/6.5.1": {
+      "sha512": "Y0GGF+TuG+JOMe//LiNlrr2Hf+nD3/Irlie15pjkzspcR59WEi6N1UT4ZZNaQVE7fYrddTTnAsSco9XD6TbvNg==",
+      "type": "package",
+      "path": "acr.userdialogs/6.5.1",
+      "files": [
+        "acr.userdialogs.6.5.1.nupkg.sha512",
+        "acr.userdialogs.nuspec",
+        "lib/MonoAndroid10/Acr.UserDialogs.Interface.dll",
+        "lib/MonoAndroid10/Acr.UserDialogs.Interface.pdb",
+        "lib/MonoAndroid10/Acr.UserDialogs.dll",
+        "lib/MonoAndroid10/Acr.UserDialogs.pdb",
+        "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll",
+        "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.pdb",
+        "lib/Xamarin.iOS10/Acr.UserDialogs.dll",
+        "lib/Xamarin.iOS10/Acr.UserDialogs.pdb",
+        "lib/netstandard1.1/Acr.UserDialogs.Interface.dll",
+        "lib/netstandard1.1/Acr.UserDialogs.Interface.pdb",
+        "lib/netstandard1.1/Acr.UserDialogs.deps.json",
+        "lib/netstandard1.1/Acr.UserDialogs.dll",
+        "lib/netstandard1.1/Acr.UserDialogs.pdb",
+        "lib/uap10.0/Acr.UserDialogs.Interface.dll",
+        "lib/uap10.0/Acr.UserDialogs.Interface.pdb",
+        "lib/uap10.0/Acr.UserDialogs.dll",
+        "lib/uap10.0/Acr.UserDialogs.pdb",
+        "lib/uap10.0/Acr.UserDialogs.pri",
+        "lib/uap10.0/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
+        "lib/uap10.0/Acr.UserDialogs/ActionSheetContentDialog.xaml",
+        "lib/uap10.0/Acr.UserDialogs/DatePickerControl.xaml",
+        "lib/uap10.0/Acr.UserDialogs/LoginContentDialog.xaml",
+        "lib/uap10.0/Acr.UserDialogs/ProgressContentDialog.xaml",
+        "lib/uap10.0/Acr.UserDialogs/Properties/Acr.UserDialogs.rd.xml",
+        "lib/uap10.0/Acr.UserDialogs/TimePickerControl.xaml"
+      ]
+    },
+    "BTProgressHUD/1.2.0.5": {
+      "sha512": "6Kr2TReJWBVZ91zJBYsIu7pIOuWlCvuM/YcuN99X/jdt8B6XJSsBHBy8i/tV390bwPLOcFh3L5CniMil9WJn2A==",
+      "type": "package",
+      "path": "btprogresshud/1.2.0.5",
+      "files": [
+        "btprogresshud.1.2.0.5.nupkg.sha512",
+        "btprogresshud.nuspec",
+        "lib/Xamarin.iOS10/BTProgressHUD.dll"
+      ]
+    },
     "GitInfo/2.0.1": {
       "sha512": "BYbUb1HwyYcifygktwseMXWEGkaBOWiLO1o+n8ldjbzTop34EMWdkp6YoaQkeheBxq3qd6AhWzhuozia09mBZA==",
       "type": "package",
@@ -4017,6 +4260,33 @@
         "skiasharp.1.60.0.nupkg.sha512",
         "skiasharp.nuspec",
         "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "Splat/2.0.0": {
+      "sha512": "nu/hT3AaKHJvMlCTrbR2EG1n6nzOejbJsvx/LWiy7kM4PK7R/GdrtP5KN8VcXfi1x+mbPA3Mqcbe992D7DppyA==",
+      "type": "package",
+      "path": "splat/2.0.0",
+      "files": [
+        "lib/MonoAndroid403/Splat.dll",
+        "lib/Net45/Splat.dll",
+        "lib/Portable-Win81+Wpa81/Splat.dll",
+        "lib/Xamarin.Mac20/Splat.dll",
+        "lib/Xamarin.iOS10/Splat.dll",
+        "lib/netstandard1.1/Splat.dll",
+        "splat.2.0.0.nupkg.sha512",
+        "splat.nuspec",
+        "src/AssemblyFinder.cs",
+        "src/Bitmaps.cs",
+        "src/Logging.cs",
+        "src/MemoizingMRUCache.cs",
+        "src/ModeDetector.cs",
+        "src/PlatformModeDetector.cs",
+        "src/PointExtensions.cs",
+        "src/RectangleExtensions.cs",
+        "src/ReflectionStubs.cs",
+        "src/ServiceLocation.cs",
+        "src/SizeExtensions.cs",
+        "src/TypeForwardedSystemDrawing.cs"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -7404,6 +7674,8 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "Acr.UserDialogs >= 6.5.1",
+      "Newtonsoft.Json >= 9.0.1",
       "Plugin.Permissions >= 3.0.0.12",
       "PokeDexApp >= 1.0.0",
       "Xam.Plugin.Media >= 4.0.1.5",
@@ -7453,6 +7725,14 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Acr.UserDialogs": {
+            "target": "Package",
+            "version": "[6.5.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[9.0.1, )"
+          },
           "Plugin.Permissions": {
             "target": "Package",
             "version": "[3.0.0.12, )"

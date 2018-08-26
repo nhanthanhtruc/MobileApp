@@ -36,6 +36,8 @@
                        x:Name="sms"
                        FontSize="Small"
                        VerticalOptions="Center" />
+                <Button Text="View Profile Doctor"
+                        Clicked="ButtonView_Clicked" />
                 <Button Text="Call Doctor"
                         Clicked="ButtonCall_Clicked"/>
                 <Button Text="SMS Doctor"

@@ -73,13 +73,16 @@ namespace PokeDexApp.Views
             Navigation.PushAsync(new DoctorDetails_Add());
         }
 
-        public void OnDelete(object sender, EventArgs e)
+        public async void OnDelete(object sender, EventArgs e)
         {
-            
             var bindingContext = ((MenuItem)sender).BindingContext;
             var DeleteDoctor = (Doctor)bindingContext;
-            doctor.Remove(DeleteDoctor);
-            DisplayAlert("Delete", DeleteDoctor.Name+ " đã xóa", "OK");
+            if (await DisplayAlert("Delete", "Are you sure?", "OK", "Cancel"))
+            {                
+                doctor.Remove(DeleteDoctor);
+            }
+            
+            
             
         }
     }

@@ -93,6 +93,10 @@ namespace PokeDexApp.Views
             CurrentDoctor.Address = EditDoctor.Address;
             Navigation.PopAsync();
         }
+        private void ButtonView_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DoctorFacebook());
+        }
 
     }
 }

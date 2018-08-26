@@ -5,7 +5,7 @@ using System.ComponentModel;
 
 namespace PokeDexApp.Models
 {
-    public class Doctor : INotifyPropertyChanged
+    public partial class Doctor : INotifyPropertyChanged
     {
         private string _Phone;
         public string Phone

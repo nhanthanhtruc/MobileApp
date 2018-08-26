@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Acr.UserDialogs/6.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Splat": "[2.0.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard1.1/Acr.UserDialogs.Interface.dll": {},
+          "lib/netstandard1.1/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Acr.UserDialogs.Interface.dll": {},
+          "lib/netstandard1.1/Acr.UserDialogs.dll": {}
+        }
+      },
       "GitInfo/2.0.1": {
         "type": "package",
         "build": {
@@ -161,6 +175,15 @@
             "assetType": "native",
             "rid": "win7-x86"
           }
+        }
+      },
+      "Splat/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.1/Splat.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Splat.dll": {}
         }
       },
       "System.Collections/4.0.11": {
@@ -981,6 +1004,40 @@
     }
   },
   "libraries": {
+    "Acr.UserDialogs/6.5.1": {
+      "sha512": "Y0GGF+TuG+JOMe//LiNlrr2Hf+nD3/Irlie15pjkzspcR59WEi6N1UT4ZZNaQVE7fYrddTTnAsSco9XD6TbvNg==",
+      "type": "package",
+      "path": "acr.userdialogs/6.5.1",
+      "files": [
+        "acr.userdialogs.6.5.1.nupkg.sha512",
+        "acr.userdialogs.nuspec",
+        "lib/MonoAndroid10/Acr.UserDialogs.Interface.dll",
+        "lib/MonoAndroid10/Acr.UserDialogs.Interface.pdb",
+        "lib/MonoAndroid10/Acr.UserDialogs.dll",
+        "lib/MonoAndroid10/Acr.UserDialogs.pdb",
+        "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.dll",
+        "lib/Xamarin.iOS10/Acr.UserDialogs.Interface.pdb",
+        "lib/Xamarin.iOS10/Acr.UserDialogs.dll",
+        "lib/Xamarin.iOS10/Acr.UserDialogs.pdb",
+        "lib/netstandard1.1/Acr.UserDialogs.Interface.dll",
+        "lib/netstandard1.1/Acr.UserDialogs.Interface.pdb",
+        "lib/netstandard1.1/Acr.UserDialogs.deps.json",
+        "lib/netstandard1.1/Acr.UserDialogs.dll",
+        "lib/netstandard1.1/Acr.UserDialogs.pdb",
+        "lib/uap10.0/Acr.UserDialogs.Interface.dll",
+        "lib/uap10.0/Acr.UserDialogs.Interface.pdb",
+        "lib/uap10.0/Acr.UserDialogs.dll",
+        "lib/uap10.0/Acr.UserDialogs.pdb",
+        "lib/uap10.0/Acr.UserDialogs.pri",
+        "lib/uap10.0/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
+        "lib/uap10.0/Acr.UserDialogs/ActionSheetContentDialog.xaml",
+        "lib/uap10.0/Acr.UserDialogs/DatePickerControl.xaml",
+        "lib/uap10.0/Acr.UserDialogs/LoginContentDialog.xaml",
+        "lib/uap10.0/Acr.UserDialogs/ProgressContentDialog.xaml",
+        "lib/uap10.0/Acr.UserDialogs/Properties/Acr.UserDialogs.rd.xml",
+        "lib/uap10.0/Acr.UserDialogs/TimePickerControl.xaml"
+      ]
+    },
     "GitInfo/2.0.1": {
       "sha512": "BYbUb1HwyYcifygktwseMXWEGkaBOWiLO1o+n8ldjbzTop34EMWdkp6YoaQkeheBxq3qd6AhWzhuozia09mBZA==",
       "type": "package",
@@ -1317,6 +1374,33 @@
         "skiasharp.1.60.0.nupkg.sha512",
         "skiasharp.nuspec",
         "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "Splat/2.0.0": {
+      "sha512": "nu/hT3AaKHJvMlCTrbR2EG1n6nzOejbJsvx/LWiy7kM4PK7R/GdrtP5KN8VcXfi1x+mbPA3Mqcbe992D7DppyA==",
+      "type": "package",
+      "path": "splat/2.0.0",
+      "files": [
+        "lib/MonoAndroid403/Splat.dll",
+        "lib/Net45/Splat.dll",
+        "lib/Portable-Win81+Wpa81/Splat.dll",
+        "lib/Xamarin.Mac20/Splat.dll",
+        "lib/Xamarin.iOS10/Splat.dll",
+        "lib/netstandard1.1/Splat.dll",
+        "splat.2.0.0.nupkg.sha512",
+        "splat.nuspec",
+        "src/AssemblyFinder.cs",
+        "src/Bitmaps.cs",
+        "src/Logging.cs",
+        "src/MemoizingMRUCache.cs",
+        "src/ModeDetector.cs",
+        "src/PlatformModeDetector.cs",
+        "src/PointExtensions.cs",
+        "src/RectangleExtensions.cs",
+        "src/ReflectionStubs.cs",
+        "src/ServiceLocation.cs",
+        "src/SizeExtensions.cs",
+        "src/TypeForwardedSystemDrawing.cs"
       ]
     },
     "System.Collections/4.0.11": {
@@ -4184,7 +4268,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Acr.UserDialogs >= 6.5.1",
       "NETStandard.Library >= 2.0.3",
+      "Newtonsoft.Json >= 9.0.1",
       "Plugin.Permissions >= 3.0.0.12",
       "Xam.Plugin.Media >= 4.0.1.5",
       "Xam.Plugins.Messaging >= 5.2.0",
@@ -4238,11 +4324,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Acr.UserDialogs": {
+            "target": "Package",
+            "version": "[6.5.1, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[9.0.1, )"
           },
           "Plugin.Permissions": {
             "target": "Package",

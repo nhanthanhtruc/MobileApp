@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
+using Acr.UserDialogs;
 namespace PokeDexApp.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
