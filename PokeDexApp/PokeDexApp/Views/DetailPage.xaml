@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeDexApp.Views.DetailPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image x:Name="imgImageDetail"
+                       Aspect="AspectFit"
+                       HeightRequest="100"
+                       WidthRequest="100"
+                       BackgroundColor="LightGray"
+                       HorizontalOptions="Center"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="2" />
+                <Label Text="Name: "
+                       FontAttributes="Bold"
+                       FontSize="20"
+                       Grid.Row="1"
+                       Grid.Column="0" />
+                <Label Text="Pikachu"
+                       x:Name="txtNameDetail"
+                       FontSize="20"
+                       Grid.Row="1"
+                       Grid.Column="1" />
+                <Label Text="Weight: "
+                       FontAttributes="Bold"
+                       FontSize="20"
+                       Grid.Row="2"
+                       Grid.Column="0" />
+                <Label Text="1.5kg"
+                       x:Name="txtWeightDetail"
+                       FontSize="20"
+                       Grid.Row="2"
+                       Grid.Column="1" />
+                <Label Text="Height: "
+                       FontAttributes="Bold"
+                       FontSize="20"
+                       Grid.Row="3"
+                       Grid.Column="0" />
+                <Label Text="0.5m"
+                       x:Name="txtHeightDetail"
+                       FontSize="20"
+                       Grid.Row="3"
+                       Grid.Column="1" />
+                <Label Text="abc xyz"
+                       x:Name="txtPokemonDetail"
+                       FontSize="20"
+                       Grid.Row="4"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="2" />
+                <Button Text="Open Website"
+                        Clicked="ButtonWeb_Clicked"
+                        Grid.Row="5"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="2" />
+            </Grid>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeDexApp.Views.Grid" Title="Grid">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button"
+                   x:Key="ColorButton">
+                <Setter Property="BackgroundColor" 
+                        Value="#FFA726"/>
+                <Setter Property="FontSize"
+                        Value="20" />
+                <Setter Property="CornerRadius"
+                        Value="35" />
+                <Setter Property="TextColor"
+                        Value="Black" />
+            </Style>
+            <Style TargetType="Button" 
+                   x:Key="SilverButton">
+                <Setter Property="BackgroundColor"
+                        Value="Silver" />
+                <Setter Property="FontSize"
+                        Value="20" />
+                <Setter Property="CornerRadius"
+                        Value="35" />
+                <Setter Property="TextColor"
+                        Value="Black" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content >
+        <Grid RowSpacing="5" ColumnSpacing="5" BackgroundColor="Black">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />                
+            </Grid.RowDefinitions>
+            
+            <Label Text="Welcome to Grid"               
+               FontAttributes="Bold" 
+               FontSize="30"
+               BackgroundColor="White"
+               Grid.Row="0" 
+               Grid.Column="0"
+               Grid.ColumnSpan="4" />
+            <Label Text="0"
+                   FontAttributes="Bold"
+                   FontSize="60"
+                   TextColor="White"
+                   BackgroundColor="Black"
+                   HorizontalTextAlignment="End"
+                   VerticalTextAlignment="End"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="4" />
+            <Button Text="C"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="2" 
+                    Grid.Column="0"/>
+            <Button Text="+/-"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="2"
+                    Grid.Column="1" />
+            <Button Text="%"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="2"
+                    Grid.Column="2" />
+            <Button Text="/"
+                    Style="{StaticResource ColorButton}"
+                    Grid.Row="2"
+                    Grid.Column="3" />
+            <Button Text="7"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="3"
+                    Grid.Column="0" />
+            <Button Text="8"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="3"
+                    Grid.Column="1" />
+            <Button Text="9"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="3"
+                    Grid.Column="2" />
+            <Button Text="X"
+                    Style="{StaticResource ColorButton}"
+                    Grid.Row="3"
+                    Grid.Column="3" />
+            <Button Text="4"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="4"
+                    Grid.Column="0" />
+            <Button Text="5"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="4"
+                    Grid.Column="1" />
+            <Button Text="6"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="4"
+                    Grid.Column="2" />
+            <Button Text="-"
+                    Style="{StaticResource ColorButton}"
+                    Grid.Row="4"
+                    Grid.Column="3" />
+            <Button Text="1"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="5"
+                    Grid.Column="0" />
+            <Button Text="2"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="5"
+                    Grid.Column="1" />
+            <Button Text="3"
+                    Grid.Row="5"
+                    Grid.Column="2" />
+            <Button Text="+"
+                    Style="{StaticResource ColorButton}"
+                    Grid.Row="5"
+                    Grid.Column="3" />
+            <Button Text="0"
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="5"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"/>
+            <Button Text=","
+                    Style="{StaticResource SilverButton}"
+                    Grid.Row="5"
+                    Grid.Column="2" />
+            <Button Text="="
+                    Style="{StaticResource ColorButton}"
+                    Grid.Row="5"
+                    Grid.Column="3" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

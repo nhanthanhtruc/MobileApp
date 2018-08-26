@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeDexApp.Views.AbsoluteLayout" Title="Absolute Layout">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Label Text="I'm center on every device"                
+                   AbsoluteLayout.LayoutBounds=".5,.5,.5,.15" 
+                   AbsoluteLayout.LayoutFlags="All" 
+                   LineBreakMode="WordWrap"  />
+            <!--<Label Text="I'm bottom center on every device."
+                   AbsoluteLayout.LayoutBounds=".5,1,.5,.1" 
+                   AbsoluteLayout.LayoutFlags="All"                
+                   LineBreakMode="WordWrap"  />-->
+            <Label Text="I'm top center on every device"                
+                   AbsoluteLayout.LayoutBounds=".5,0,.5,.1" 
+                   AbsoluteLayout.LayoutFlags="All" 
+                   LineBreakMode="WordWrap"  />
+            <Button Text="Go Back" Clicked="Button_Clicked"
+                   AbsoluteLayout.LayoutBounds=".5,1,.5,.1" 
+                   AbsoluteLayout.LayoutFlags="All"                
+                     />
+            <BoxView Color="RosyBrown"  AbsoluteLayout.LayoutBounds="1,0, 30, 100"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <BoxView Color="Pink"  AbsoluteLayout.LayoutBounds="1,.5, 30, 100"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <BoxView Color="Green"  AbsoluteLayout.LayoutBounds="1,1, 30, 100"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0,.5,30,100"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <BoxView Color="Black" AbsoluteLayout.LayoutBounds="0,0,30,100"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <BoxView Color="Yellow" AbsoluteLayout.LayoutBounds="0,1,30,100"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <!--<BoxView Color="Blue" AbsoluteLayout.LayoutBounds=".5,0,100,20"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />-->
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

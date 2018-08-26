@@ -2,6 +2,6 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <SelectedDevice>Samsung SM-G965F</SelectedDevice>
-    <DefaultDevice>my_device</DefaultDevice>
+    <DefaultDevice>test_android</DefaultDevice>
   </PropertyGroup>
 </Project>
