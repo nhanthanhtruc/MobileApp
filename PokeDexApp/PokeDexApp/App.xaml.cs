@@ -11,9 +11,9 @@ namespace PokeDexApp
         public App()
         {
             // Initialize Live Reload.
-            #if DEBUG
-                        LiveReload.Init();
-            #endif
+            //#if DEBUG
+            //            //LiveReload.Init();
+            //#endif
             InitializeComponent();
             MainPage = new MsPage();
         }

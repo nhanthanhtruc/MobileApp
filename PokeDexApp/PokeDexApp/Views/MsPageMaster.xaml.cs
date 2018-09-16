@@ -39,7 +39,9 @@ namespace PokeDexApp
                     new MsPageMenuItem { Id = 1, Title = "Test LayOut",TargetType=typeof(TestLayOut) },
                     new MsPageMenuItem { Id = 2, Title = "Doctor",TargetType=typeof(DoctorPage) },
                     new MsPageMenuItem { Id = 3, Title = "Binding",TargetType=typeof(BindingView) },
-                    new MsPageMenuItem { Id = 4, Title = "About" },
+                    new MsPageMenuItem { Id = 4, Title = "CategoryAPI",TargetType=typeof(CategoryAPI) },
+                    new MsPageMenuItem { Id = 5, Title = "LoginPage",TargetType=typeof(LoginPage) },
+                    new MsPageMenuItem { Id = 6, Title = "About" },
                     
                 });
             }

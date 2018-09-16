@@ -63,7 +63,6 @@ namespace PokeDexApp.Droid
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::PokeDexApp.Droid.Resource.Styleable.ProgressWheel_ahText;
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::PokeDexApp.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
 			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::PokeDexApp.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
-			global::Splat.Resource.String.library_name = global::PokeDexApp.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::PokeDexApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -249,41 +248,41 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F040022
 			public const int activityChooserViewStyle = 2130968610;
 			
-			// aapt resource value: 0x7F080005
-			public const int ahBarColor = 2131230725;
+			// aapt resource value: 0x7F090005
+			public const int ahBarColor = 2131296261;
 			
-			// aapt resource value: 0x7F080013
-			public const int ahBarLength = 2131230739;
+			// aapt resource value: 0x7F090013
+			public const int ahBarLength = 2131296275;
 			
-			// aapt resource value: 0x7F080012
-			public const int ahBarWidth = 2131230738;
+			// aapt resource value: 0x7F090012
+			public const int ahBarWidth = 2131296274;
 			
-			// aapt resource value: 0x7F080010
-			public const int ahCircleColor = 2131230736;
+			// aapt resource value: 0x7F090010
+			public const int ahCircleColor = 2131296272;
 			
-			// aapt resource value: 0x7F080009
-			public const int ahDelayMillis = 2131230729;
+			// aapt resource value: 0x7F090009
+			public const int ahDelayMillis = 2131296265;
 			
-			// aapt resource value: 0x7F080011
-			public const int ahRadius = 2131230737;
+			// aapt resource value: 0x7F090011
+			public const int ahRadius = 2131296273;
 			
-			// aapt resource value: 0x7F080006
-			public const int ahRimColor = 2131230726;
+			// aapt resource value: 0x7F090006
+			public const int ahRimColor = 2131296262;
 			
-			// aapt resource value: 0x7F080007
-			public const int ahRimWidth = 2131230727;
+			// aapt resource value: 0x7F090007
+			public const int ahRimWidth = 2131296263;
 			
-			// aapt resource value: 0x7F080008
-			public const int ahSpinSpeed = 2131230728;
+			// aapt resource value: 0x7F090008
+			public const int ahSpinSpeed = 2131296264;
 			
-			// aapt resource value: 0x7F080002
-			public const int ahText = 2131230722;
+			// aapt resource value: 0x7F090002
+			public const int ahText = 2131296258;
 			
-			// aapt resource value: 0x7F080003
-			public const int ahTextColor = 2131230723;
+			// aapt resource value: 0x7F090003
+			public const int ahTextColor = 2131296259;
 			
-			// aapt resource value: 0x7F080004
-			public const int ahTextSize = 2131230724;
+			// aapt resource value: 0x7F090004
+			public const int ahTextSize = 2131296260;
 			
 			// aapt resource value: 0x7F040023
 			public const int alertDialogButtonGroupStyle = 2130968611;
@@ -485,6 +484,42 @@ namespace PokeDexApp.Droid
 			
 			// aapt resource value: 0x7F04005F
 			public const int commitIcon = 2130968671;
+			
+			// aapt resource value: 0x7F04005B
+			public const int com_facebook_auxiliary_view_position = 2130968667;
+			
+			// aapt resource value: 0x7F04005C
+			public const int com_facebook_confirm_logout = 2130968668;
+			
+			// aapt resource value: 0x7F04005C
+			public const int com_facebook_foreground_color = 2130968668;
+			
+			// aapt resource value: 0x7F04005D
+			public const int com_facebook_horizontal_alignment = 2130968669;
+			
+			// aapt resource value: 0x7F04005F
+			public const int com_facebook_is_cropped = 2130968671;
+			
+			// aapt resource value: 0x7F040060
+			public const int com_facebook_login_text = 2130968672;
+			
+			// aapt resource value: 0x7F040061
+			public const int com_facebook_logout_text = 2130968673;
+			
+			// aapt resource value: 0x7F04005E
+			public const int com_facebook_object_id = 2130968670;
+			
+			// aapt resource value: 0x7F04005F
+			public const int com_facebook_object_type = 2130968671;
+			
+			// aapt resource value: 0x7F040064
+			public const int com_facebook_preset_size = 2130968676;
+			
+			// aapt resource value: 0x7F040060
+			public const int com_facebook_style = 2130968672;
+			
+			// aapt resource value: 0x7F040066
+			public const int com_facebook_tooltip_mode = 2130968678;
 			
 			// aapt resource value: 0x7F040060
 			public const int contentDescription = 2130968672;
@@ -1472,6 +1507,69 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F050004
 			public const int colorPrimaryDark = 2131034116;
 			
+			// aapt resource value: 0x7F06002B
+			public const int com_facebook_blue = 2131099691;
+			
+			// aapt resource value: 0x7F06002C
+			public const int com_facebook_button_background_color = 2131099692;
+			
+			// aapt resource value: 0x7F06002D
+			public const int com_facebook_button_background_color_disabled = 2131099693;
+			
+			// aapt resource value: 0x7F06002E
+			public const int com_facebook_button_background_color_focused = 2131099694;
+			
+			// aapt resource value: 0x7F06002F
+			public const int com_facebook_button_background_color_focused_disabled = 2131099695;
+			
+			// aapt resource value: 0x7F060030
+			public const int com_facebook_button_background_color_pressed = 2131099696;
+			
+			// aapt resource value: 0x7F060031
+			public const int com_facebook_button_background_color_selected = 2131099697;
+			
+			// aapt resource value: 0x7F060032
+			public const int com_facebook_button_border_color_focused = 2131099698;
+			
+			// aapt resource value: 0x7F060033
+			public const int com_facebook_button_login_background_color = 2131099699;
+			
+			// aapt resource value: 0x7F060034
+			public const int com_facebook_button_login_silver_background_color = 2131099700;
+			
+			// aapt resource value: 0x7F060035
+			public const int com_facebook_button_login_silver_background_color_pressed = 2131099701;
+			
+			// aapt resource value: 0x7F060033
+			public const int com_facebook_button_send_background_color = 2131099699;
+			
+			// aapt resource value: 0x7F060034
+			public const int com_facebook_button_send_background_color_pressed = 2131099700;
+			
+			// aapt resource value: 0x7F060033
+			public const int com_facebook_button_text_color = 2131099699;
+			
+			// aapt resource value: 0x7F060034
+			public const int com_facebook_device_auth_text = 2131099700;
+			
+			// aapt resource value: 0x7F060035
+			public const int com_facebook_likeboxcountview_border_color = 2131099701;
+			
+			// aapt resource value: 0x7F060036
+			public const int com_facebook_likeboxcountview_text_color = 2131099702;
+			
+			// aapt resource value: 0x7F060037
+			public const int com_facebook_likeview_text_color = 2131099703;
+			
+			// aapt resource value: 0x7F06003A
+			public const int com_facebook_messenger_blue = 2131099706;
+			
+			// aapt resource value: 0x7F06003B
+			public const int com_facebook_send_button_text_color = 2131099707;
+			
+			// aapt resource value: 0x7F060038
+			public const int com_smart_login_code = 2131099704;
+			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
 			
@@ -1904,6 +2002,54 @@ namespace PokeDexApp.Droid
 			
 			// aapt resource value: 0x7F080005
 			public const int compat_control_corner_material = 2131230725;
+			
+			// aapt resource value: 0x7F08004E
+			public const int com_facebook_auth_dialog_corner_radius = 2131230798;
+			
+			// aapt resource value: 0x7F08004F
+			public const int com_facebook_auth_dialog_corner_radius_oversized = 2131230799;
+			
+			// aapt resource value: 0x7F080050
+			public const int com_facebook_button_corner_radius = 2131230800;
+			
+			// aapt resource value: 0x7F080051
+			public const int com_facebook_button_login_corner_radius = 2131230801;
+			
+			// aapt resource value: 0x7F080051
+			public const int com_facebook_likeboxcountview_border_radius = 2131230801;
+			
+			// aapt resource value: 0x7F080052
+			public const int com_facebook_likeboxcountview_border_width = 2131230802;
+			
+			// aapt resource value: 0x7F080053
+			public const int com_facebook_likeboxcountview_caret_height = 2131230803;
+			
+			// aapt resource value: 0x7F080054
+			public const int com_facebook_likeboxcountview_caret_width = 2131230804;
+			
+			// aapt resource value: 0x7F080055
+			public const int com_facebook_likeboxcountview_text_padding = 2131230805;
+			
+			// aapt resource value: 0x7F080056
+			public const int com_facebook_likeboxcountview_text_size = 2131230806;
+			
+			// aapt resource value: 0x7F080057
+			public const int com_facebook_likeview_edge_padding = 2131230807;
+			
+			// aapt resource value: 0x7F080058
+			public const int com_facebook_likeview_internal_padding = 2131230808;
+			
+			// aapt resource value: 0x7F080059
+			public const int com_facebook_likeview_text_size = 2131230809;
+			
+			// aapt resource value: 0x7F08005B
+			public const int com_facebook_profilepictureview_preset_size_large = 2131230811;
+			
+			// aapt resource value: 0x7F08005C
+			public const int com_facebook_profilepictureview_preset_size_normal = 2131230812;
+			
+			// aapt resource value: 0x7F08005D
+			public const int com_facebook_profilepictureview_preset_size_small = 2131230813;
 			
 			// aapt resource value: 0x7F080050
 			public const int design_appbar_elevation = 2131230800;
@@ -2421,6 +2567,90 @@ namespace PokeDexApp.Droid
 			
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
+			
+			// aapt resource value: 0x7F090054
+			public const int com_facebook_auth_dialog_background = 2131296340;
+			
+			// aapt resource value: 0x7F090055
+			public const int com_facebook_auth_dialog_cancel_background = 2131296341;
+			
+			// aapt resource value: 0x7F090056
+			public const int com_facebook_auth_dialog_header_background = 2131296342;
+			
+			// aapt resource value: 0x7F090057
+			public const int com_facebook_button_background = 2131296343;
+			
+			// aapt resource value: 0x7F090058
+			public const int com_facebook_button_icon = 2131296344;
+			
+			// aapt resource value: 0x7F090059
+			public const int com_facebook_button_icon_blue = 2131296345;
+			
+			// aapt resource value: 0x7F09005A
+			public const int com_facebook_button_icon_white = 2131296346;
+			
+			// aapt resource value: 0x7F09005B
+			public const int com_facebook_button_like_background = 2131296347;
+			
+			// aapt resource value: 0x7F09005C
+			public const int com_facebook_button_like_icon_selected = 2131296348;
+			
+			// aapt resource value: 0x7F09005D
+			public const int com_facebook_button_login_background = 2131296349;
+			
+			// aapt resource value: 0x7F09005E
+			public const int com_facebook_button_login_logo = 2131296350;
+			
+			// aapt resource value: 0x7F09005F
+			public const int com_facebook_button_login_silver_background = 2131296351;
+			
+			// aapt resource value: 0x7F09005D
+			public const int com_facebook_button_send_background = 2131296349;
+			
+			// aapt resource value: 0x7F09005E
+			public const int com_facebook_button_send_icon_blue = 2131296350;
+			
+			// aapt resource value: 0x7F09005F
+			public const int com_facebook_button_send_icon_white = 2131296351;
+			
+			// aapt resource value: 0x7F09005D
+			public const int com_facebook_close = 2131296349;
+			
+			// aapt resource value: 0x7F09005E
+			public const int com_facebook_favicon_blue = 2131296350;
+			
+			// aapt resource value: 0x7F090062
+			public const int com_facebook_profile_picture_blank_portrait = 2131296354;
+			
+			// aapt resource value: 0x7F090063
+			public const int com_facebook_profile_picture_blank_square = 2131296355;
+			
+			// aapt resource value: 0x7F090062
+			public const int com_facebook_send_button_icon = 2131296354;
+			
+			// aapt resource value: 0x7F090064
+			public const int com_facebook_tooltip_black_background = 2131296356;
+			
+			// aapt resource value: 0x7F090065
+			public const int com_facebook_tooltip_black_bottomnub = 2131296357;
+			
+			// aapt resource value: 0x7F090066
+			public const int com_facebook_tooltip_black_topnub = 2131296358;
+			
+			// aapt resource value: 0x7F090067
+			public const int com_facebook_tooltip_black_xout = 2131296359;
+			
+			// aapt resource value: 0x7F090068
+			public const int com_facebook_tooltip_blue_background = 2131296360;
+			
+			// aapt resource value: 0x7F090069
+			public const int com_facebook_tooltip_blue_bottomnub = 2131296361;
+			
+			// aapt resource value: 0x7F09006A
+			public const int com_facebook_tooltip_blue_topnub = 2131296362;
+			
+			// aapt resource value: 0x7F09006B
+			public const int com_facebook_tooltip_blue_xout = 2131296363;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -2977,6 +3207,33 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
+			// aapt resource value: 0x7F090001
+			public const int messenger_bubble_large_blue = 2131296257;
+			
+			// aapt resource value: 0x7F090002
+			public const int messenger_bubble_large_white = 2131296258;
+			
+			// aapt resource value: 0x7F090003
+			public const int messenger_bubble_small_blue = 2131296259;
+			
+			// aapt resource value: 0x7F090004
+			public const int messenger_bubble_small_white = 2131296260;
+			
+			// aapt resource value: 0x7F090005
+			public const int messenger_button_blue_bg_round = 2131296261;
+			
+			// aapt resource value: 0x7F090006
+			public const int messenger_button_blue_bg_selector = 2131296262;
+			
+			// aapt resource value: 0x7F090007
+			public const int messenger_button_send_round_shadow = 2131296263;
+			
+			// aapt resource value: 0x7F090008
+			public const int messenger_button_white_bg_round = 2131296264;
+			
+			// aapt resource value: 0x7F090009
+			public const int messenger_button_white_bg_selector = 2131296265;
+			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
 			
@@ -3173,17 +3430,29 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F0C0018
 			public const int auto = 2131492888;
 			
+			// aapt resource value: 0x7F0C0018
+			public const int automatic = 2131492888;
+			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
 			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
+			// aapt resource value: 0x7F0C001A
+			public const int box_count = 2131492890;
+			
+			// aapt resource value: 0x7F0C001B
+			public const int button = 2131492891;
+			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
 			// aapt resource value: 0x7F0C001C
 			public const int cancel_action = 2131492892;
+			
+			// aapt resource value: 0x7F0C001E
+			public const int cancel_button = 2131492894;
 			
 			// aapt resource value: 0x7F0C001D
 			public const int center = 2131492893;
@@ -3193,6 +3462,39 @@ namespace PokeDexApp.Droid
 			
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
+			
+			// aapt resource value: 0x7F0C0023
+			public const int com_facebook_body_frame = 2131492899;
+			
+			// aapt resource value: 0x7F0C0024
+			public const int com_facebook_button_xout = 2131492900;
+			
+			// aapt resource value: 0x7F0C0022
+			public const int com_facebook_device_auth_instructions = 2131492898;
+			
+			// aapt resource value: 0x7F0C0023
+			public const int com_facebook_fragment_container = 2131492899;
+			
+			// aapt resource value: 0x7F0C0024
+			public const int com_facebook_login_fragment_progress_bar = 2131492900;
+			
+			// aapt resource value: 0x7F0C0025
+			public const int com_facebook_smart_instructions_0 = 2131492901;
+			
+			// aapt resource value: 0x7F0C0026
+			public const int com_facebook_smart_instructions_or = 2131492902;
+			
+			// aapt resource value: 0x7F0C002A
+			public const int com_facebook_tooltip_bubble_view_bottom_pointer = 2131492906;
+			
+			// aapt resource value: 0x7F0C002B
+			public const int com_facebook_tooltip_bubble_view_text_body = 2131492907;
+			
+			// aapt resource value: 0x7F0C002C
+			public const int com_facebook_tooltip_bubble_view_top_pointer = 2131492908;
+			
+			// aapt resource value: 0x7F0C0027
+			public const int confirmation_code = 2131492903;
 			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
@@ -3229,6 +3531,9 @@ namespace PokeDexApp.Droid
 			
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
+			
+			// aapt resource value: 0x7F0C0033
+			public const int display_always = 2131492915;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
@@ -3272,11 +3577,17 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
 			
+			// aapt resource value: 0x7F0C0037
+			public const int inline = 2131492919;
+			
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
 			
 			// aapt resource value: 0x7F0C003B
 			public const int item_touch_helper_previous_elevation = 2131492923;
+			
+			// aapt resource value: 0x7F0C0040
+			public const int large = 2131492928;
 			
 			// aapt resource value: 0x7F0C003C
 			public const int largeLabel = 2131492924;
@@ -3313,6 +3624,9 @@ namespace PokeDexApp.Droid
 			
 			// aapt resource value: 0x7F0C0044
 			public const int message = 2131492932;
+			
+			// aapt resource value: 0x7F0C0010
+			public const int messenger_send_button = 2131492880;
 			
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
@@ -3398,6 +3712,9 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
+			// aapt resource value: 0x7F0C0049
+			public const int never_display = 2131492937;
+			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
 			
@@ -3413,6 +3730,12 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
 			
+			// aapt resource value: 0x7F0C0046
+			public const int open_graph = 2131492934;
+			
+			// aapt resource value: 0x7F0C0047
+			public const int page = 2131492935;
+			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
 			
@@ -3424,6 +3747,9 @@ namespace PokeDexApp.Droid
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
+			
+			// aapt resource value: 0x7F0C0049
+			public const int progress_bar = 2131492937;
 			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
@@ -3506,6 +3832,9 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F020002
 			public const int sliding_tabs = 2130837506;
 			
+			// aapt resource value: 0x7F0C0069
+			public const int small = 2131492969;
+			
 			// aapt resource value: 0x7F0C006B
 			public const int smallLabel = 2131492971;
 			
@@ -3529,6 +3858,9 @@ namespace PokeDexApp.Droid
 			
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
+			
+			// aapt resource value: 0x7F0C0065
+			public const int standard = 2131492965;
 			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
@@ -3613,6 +3945,9 @@ namespace PokeDexApp.Droid
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
+			
+			// aapt resource value: 0x7F0C0076
+			public const int unknown = 2131492982;
 			
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
@@ -3792,6 +4127,21 @@ namespace PokeDexApp.Droid
 			public const int abc_select_dialog_material = 2131689498;
 			
 			// aapt resource value: 0x7F0F001B
+			public const int com_facebook_activity_layout = 2131689499;
+			
+			// aapt resource value: 0x7F0F001C
+			public const int com_facebook_device_auth_dialog_fragment = 2131689500;
+			
+			// aapt resource value: 0x7F0F001D
+			public const int com_facebook_login_fragment = 2131689501;
+			
+			// aapt resource value: 0x7F0F001E
+			public const int com_facebook_smart_device_dialog_fragment = 2131689502;
+			
+			// aapt resource value: 0x7F0F001F
+			public const int com_facebook_tooltip_bubble = 2131689503;
+			
+			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
 			
 			// aapt resource value: 0x7F0F001C
@@ -3841,6 +4191,24 @@ namespace PokeDexApp.Droid
 			
 			// aapt resource value: 0x7F030006
 			public const int loadingprogress = 2130903046;
+			
+			// aapt resource value: 0x7F0F0001
+			public const int messenger_button_send_blue_large = 2131689473;
+			
+			// aapt resource value: 0x7F0F0002
+			public const int messenger_button_send_blue_round = 2131689474;
+			
+			// aapt resource value: 0x7F0F0003
+			public const int messenger_button_send_blue_small = 2131689475;
+			
+			// aapt resource value: 0x7F0F0004
+			public const int messenger_button_send_white_large = 2131689476;
+			
+			// aapt resource value: 0x7F0F0005
+			public const int messenger_button_send_white_round = 2131689477;
+			
+			// aapt resource value: 0x7F0F0006
+			public const int messenger_button_send_white_small = 2131689478;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int mr_chooser_dialog = 2131689499;
@@ -4051,14 +4419,95 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
+			// aapt resource value: 0x7F060002
+			public const int app_name = 2131099650;
+			
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
 			
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F090002
-			public const int library_name = 2131296258;
+			// aapt resource value: 0x7F15001E
+			public const int com_facebook_device_auth_instructions = 2132082718;
+			
+			// aapt resource value: 0x7F15001F
+			public const int com_facebook_image_download_unknown_error = 2132082719;
+			
+			// aapt resource value: 0x7F150020
+			public const int com_facebook_internet_permission_error_message = 2132082720;
+			
+			// aapt resource value: 0x7F150021
+			public const int com_facebook_internet_permission_error_title = 2132082721;
+			
+			// aapt resource value: 0x7F150022
+			public const int com_facebook_like_button_liked = 2132082722;
+			
+			// aapt resource value: 0x7F150023
+			public const int com_facebook_like_button_not_liked = 2132082723;
+			
+			// aapt resource value: 0x7F150024
+			public const int com_facebook_loading = 2132082724;
+			
+			// aapt resource value: 0x7F150025
+			public const int com_facebook_loginview_cancel_action = 2132082725;
+			
+			// aapt resource value: 0x7F15002B
+			public const int com_facebook_loginview_logged_in_as = 2132082731;
+			
+			// aapt resource value: 0x7F15002C
+			public const int com_facebook_loginview_logged_in_using_facebook = 2132082732;
+			
+			// aapt resource value: 0x7F150026
+			public const int com_facebook_loginview_log_in_button = 2132082726;
+			
+			// aapt resource value: 0x7F150027
+			public const int com_facebook_loginview_log_in_button_continue = 2132082727;
+			
+			// aapt resource value: 0x7F150028
+			public const int com_facebook_loginview_log_in_button_long = 2132082728;
+			
+			// aapt resource value: 0x7F150029
+			public const int com_facebook_loginview_log_out_action = 2132082729;
+			
+			// aapt resource value: 0x7F15002A
+			public const int com_facebook_loginview_log_out_button = 2132082730;
+			
+			// aapt resource value: 0x7F15002D
+			public const int com_facebook_send_button_text = 2132082733;
+			
+			// aapt resource value: 0x7F15002E
+			public const int com_facebook_share_button_text = 2132082734;
+			
+			// aapt resource value: 0x7F15002F
+			public const int com_facebook_smart_device_instructions = 2132082735;
+			
+			// aapt resource value: 0x7F150030
+			public const int com_facebook_smart_device_instructions_or = 2132082736;
+			
+			// aapt resource value: 0x7F150031
+			public const int com_facebook_smart_login_confirmation_cancel = 2132082737;
+			
+			// aapt resource value: 0x7F150032
+			public const int com_facebook_smart_login_confirmation_continue_as = 2132082738;
+			
+			// aapt resource value: 0x7F150033
+			public const int com_facebook_smart_login_confirmation_title = 2132082739;
+			
+			// aapt resource value: 0x7F150034
+			public const int com_facebook_tooltip_default = 2132082740;
+			
+			// aapt resource value: 0x7F060003
+			public const int facebook_app_id = 2131099651;
+			
+			// aapt resource value: 0x7F060004
+			public const int fb_login_protocol_scheme = 2131099652;
+			
+			// aapt resource value: 0x7F060005
+			public const int library_name = 2131099653;
+			
+			// aapt resource value: 0x7F150001
+			public const int messenger_send_button_text = 2132082689;
 			
 			// aapt resource value: 0x7F15001E
 			public const int mr_button_content_description = 2132082718;
@@ -4175,8 +4624,8 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F160006
 			public const int Animation_Design_BottomSheetDialog = 2132148230;
 			
-			// aapt resource value: 0x7F060004
-			public const int AppCompatDialogStyle = 2131099652;
+			// aapt resource value: 0x7F070004
+			public const int AppCompatDialogStyle = 2131165188;
 			
 			// aapt resource value: 0x7F160007
 			public const int Base_AlertDialog_AppCompat = 2132148231;
@@ -4679,11 +5128,80 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F160004
 			public const int CardView_Light = 2132148228;
 			
-			// aapt resource value: 0x7F060002
-			public const int MainTheme = 2131099650;
+			// aapt resource value: 0x7F160167
+			public const int com_facebook_activity_theme = 2132148583;
 			
-			// aapt resource value: 0x7F060003
-			public const int MainTheme_Base = 2131099651;
+			// aapt resource value: 0x7F160168
+			public const int com_facebook_auth_dialog = 2132148584;
+			
+			// aapt resource value: 0x7F160169
+			public const int com_facebook_auth_dialog_instructions_textview = 2132148585;
+			
+			// aapt resource value: 0x7F16016A
+			public const int com_facebook_button = 2132148586;
+			
+			// aapt resource value: 0x7F16016B
+			public const int com_facebook_button_like = 2132148587;
+			
+			// aapt resource value: 0x7F16016C
+			public const int com_facebook_button_send = 2132148588;
+			
+			// aapt resource value: 0x7F16016D
+			public const int com_facebook_button_share = 2132148589;
+			
+			// aapt resource value: 0x7F16016C
+			public const int com_facebook_loginview_default_style = 2132148588;
+			
+			// aapt resource value: 0x7F16016D
+			public const int com_facebook_loginview_silver_style = 2132148589;
+			
+			// aapt resource value: 0x7F070002
+			public const int MainTheme = 2131165186;
+			
+			// aapt resource value: 0x7F070003
+			public const int MainTheme_Base = 2131165187;
+			
+			// aapt resource value: 0x7F160001
+			public const int MessengerButton = 2132148225;
+			
+			// aapt resource value: 0x7F160002
+			public const int MessengerButtonText = 2132148226;
+			
+			// aapt resource value: 0x7F160003
+			public const int MessengerButtonText_Blue = 2132148227;
+			
+			// aapt resource value: 0x7F160004
+			public const int MessengerButtonText_Blue_Large = 2132148228;
+			
+			// aapt resource value: 0x7F160005
+			public const int MessengerButtonText_Blue_Small = 2132148229;
+			
+			// aapt resource value: 0x7F160006
+			public const int MessengerButtonText_White = 2132148230;
+			
+			// aapt resource value: 0x7F160007
+			public const int MessengerButtonText_White_Large = 2132148231;
+			
+			// aapt resource value: 0x7F160008
+			public const int MessengerButtonText_White_Small = 2132148232;
+			
+			// aapt resource value: 0x7F160009
+			public const int MessengerButton_Blue = 2132148233;
+			
+			// aapt resource value: 0x7F16000A
+			public const int MessengerButton_Blue_Large = 2132148234;
+			
+			// aapt resource value: 0x7F16000B
+			public const int MessengerButton_Blue_Small = 2132148235;
+			
+			// aapt resource value: 0x7F16000C
+			public const int MessengerButton_White = 2132148236;
+			
+			// aapt resource value: 0x7F16000D
+			public const int MessengerButton_White_Large = 2132148237;
+			
+			// aapt resource value: 0x7F16000E
+			public const int MessengerButton_White_Small = 2132148238;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;
@@ -5102,6 +5620,9 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x7F160121
 			public const int Theme_MediaRouter_Light_DarkControlPanel = 2132148513;
 			
+			// aapt resource value: 0x7F16016E
+			public const int tooltip_bubble_text = 2132148590;
+			
 			// aapt resource value: 0x7F16012C
 			public const int Widget_AppCompat_ActionBar = 2132148524;
 			
@@ -5410,11 +5931,11 @@ namespace PokeDexApp.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F070060
-			public const int ActionBarLayout_android_layout_gravity = 2131165280;
+			// aapt resource value: 0x7F080060
+			public const int ActionBarLayout_android_layout_gravity = 2131230816;
 			
-			// aapt resource value: 0x7F070030
-			public const int ActionBar_background = 2131165232;
+			// aapt resource value: 0x7F080030
+			public const int ActionBar_background = 2131230768;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -5503,8 +6024,8 @@ namespace PokeDexApp.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F070062
-			public const int ActionMenuItemView_android_minWidth = 2131165282;
+			// aapt resource value: 0x7F080062
+			public const int ActionMenuItemView_android_minWidth = 2131230818;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -5514,8 +6035,8 @@ namespace PokeDexApp.Droid
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F070064
-			public const int ActionMode_background = 2131165284;
+			// aapt resource value: 0x7F080064
+			public const int ActionMode_background = 2131230820;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -5536,8 +6057,8 @@ namespace PokeDexApp.Droid
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F070071
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165297;
+			// aapt resource value: 0x7F080071
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131230833;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -5551,8 +6072,8 @@ namespace PokeDexApp.Droid
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F070074
-			public const int AlertDialog_android_layout = 2131165300;
+			// aapt resource value: 0x7F080074
+			public const int AlertDialog_android_layout = 2131230836;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -5583,14 +6104,14 @@ namespace PokeDexApp.Droid
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F070088
-			public const int AppBarLayoutStates_state_collapsed = 2131165320;
+			// aapt resource value: 0x7F080088
+			public const int AppBarLayoutStates_state_collapsed = 2131230856;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F070082
-			public const int AppBarLayout_android_background = 2131165314;
+			// aapt resource value: 0x7F080082
+			public const int AppBarLayout_android_background = 2131230850;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -5608,8 +6129,8 @@ namespace PokeDexApp.Droid
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F070091
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165329;
+			// aapt resource value: 0x7F080091
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131230865;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -5620,8 +6141,8 @@ namespace PokeDexApp.Droid
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F070094
-			public const int AppCompatImageView_android_src = 2131165332;
+			// aapt resource value: 0x7F080094
+			public const int AppCompatImageView_android_src = 2131230868;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -5638,8 +6159,8 @@ namespace PokeDexApp.Droid
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F070099
-			public const int AppCompatSeekBar_android_thumb = 2131165337;
+			// aapt resource value: 0x7F080099
+			public const int AppCompatSeekBar_android_thumb = 2131230873;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -5659,8 +6180,8 @@ namespace PokeDexApp.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F070104
-			public const int AppCompatTextHelper_android_drawableBottom = 2131165444;
+			// aapt resource value: 0x7F080104
+			public const int AppCompatTextHelper_android_drawableBottom = 2131230980;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -5690,8 +6211,8 @@ namespace PokeDexApp.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070112
-			public const int AppCompatTextView_android_textAppearance = 2131165458;
+			// aapt resource value: 0x7F080112
+			public const int AppCompatTextView_android_textAppearance = 2131230994;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -5835,8 +6356,8 @@ namespace PokeDexApp.Droid
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F070121
-			public const int AppCompatTheme_actionBarDivider = 2131165473;
+			// aapt resource value: 0x7F080121
+			public const int AppCompatTheme_actionBarDivider = 2131231009;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -6199,8 +6720,8 @@ namespace PokeDexApp.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070241
-			public const int BottomNavigationView_elevation = 2131165761;
+			// aapt resource value: 0x7F080241
+			public const int BottomNavigationView_elevation = 2131231297;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -6219,8 +6740,8 @@ namespace PokeDexApp.Droid
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F070247
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131165767;
+			// aapt resource value: 0x7F080247
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131231303;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -6231,8 +6752,8 @@ namespace PokeDexApp.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F070251
-			public const int ButtonBarLayout_allowStacking = 2131165777;
+			// aapt resource value: 0x7F080251
+			public const int ButtonBarLayout_allowStacking = 2131231313;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -6249,8 +6770,8 @@ namespace PokeDexApp.Droid
 					2130968586,
 					2130968587};
 			
-			// aapt resource value: 0x7F070554
-			public const int CardView_android_minHeight = 2131166548;
+			// aapt resource value: 0x7F080554
+			public const int CardView_android_minHeight = 2131232084;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -6306,8 +6827,8 @@ namespace PokeDexApp.Droid
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F070253
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131165779;
+			// aapt resource value: 0x7F080253
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131231315;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -6340,8 +6861,8 @@ namespace PokeDexApp.Droid
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F070270
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131165808;
+			// aapt resource value: 0x7F080270
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131231344;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -6369,8 +6890,8 @@ namespace PokeDexApp.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F070273
-			public const int ColorStateListItem_alpha = 2131165811;
+			// aapt resource value: 0x7F080273
+			public const int ColorStateListItem_alpha = 2131231347;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -6383,8 +6904,8 @@ namespace PokeDexApp.Droid
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F070277
-			public const int CompoundButton_android_button = 2131165815;
+			// aapt resource value: 0x7F080277
+			public const int CompoundButton_android_button = 2131231351;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -6392,12 +6913,66 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x2
 			public const int CompoundButton_buttonTintMode = 2;
 			
+			public static int[] com_facebook_like_view = new int[] {
+					2130968667,
+					2130968668,
+					2130968669,
+					2130968670,
+					2130968671,
+					2130968672};
+			
+			// aapt resource value: 0x7F080573
+			public const int com_facebook_like_view_com_facebook_auxiliary_view_position = 2131232115;
+			
+			// aapt resource value: 0x1
+			public const int com_facebook_like_view_com_facebook_foreground_color = 1;
+			
+			// aapt resource value: 0x2
+			public const int com_facebook_like_view_com_facebook_horizontal_alignment = 2;
+			
+			// aapt resource value: 0x3
+			public const int com_facebook_like_view_com_facebook_object_id = 3;
+			
+			// aapt resource value: 0x4
+			public const int com_facebook_like_view_com_facebook_object_type = 4;
+			
+			// aapt resource value: 0x5
+			public const int com_facebook_like_view_com_facebook_style = 5;
+			
+			public static int[] com_facebook_login_view = new int[] {
+					2130968668,
+					2130968672,
+					2130968673,
+					2130968678};
+			
+			// aapt resource value: 0x7F080580
+			public const int com_facebook_login_view_com_facebook_confirm_logout = 2131232128;
+			
+			// aapt resource value: 0x1
+			public const int com_facebook_login_view_com_facebook_login_text = 1;
+			
+			// aapt resource value: 0x2
+			public const int com_facebook_login_view_com_facebook_logout_text = 2;
+			
+			// aapt resource value: 0x3
+			public const int com_facebook_login_view_com_facebook_tooltip_mode = 3;
+			
+			public static int[] com_facebook_profile_picture_view = new int[] {
+					2130968671,
+					2130968676};
+			
+			// aapt resource value: 0x7F080585
+			public const int com_facebook_profile_picture_view_com_facebook_is_cropped = 2131232133;
+			
+			// aapt resource value: 0x1
+			public const int com_facebook_profile_picture_view_com_facebook_preset_size = 1;
+			
 			public static int[] CoordinatorLayout = new int[] {
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F070281
-			public const int CoordinatorLayout_keylines = 2131165825;
+			// aapt resource value: 0x7F080281
+			public const int CoordinatorLayout_keylines = 2131231361;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -6408,8 +6983,8 @@ namespace PokeDexApp.Droid
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F070284
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165828;
+			// aapt resource value: 0x7F080284
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131231364;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -6437,8 +7012,8 @@ namespace PokeDexApp.Droid
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F070292
-			public const int DesignTheme_bottomSheetDialogTheme = 2131165842;
+			// aapt resource value: 0x7F080292
+			public const int DesignTheme_bottomSheetDialogTheme = 2131231378;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -6456,8 +7031,8 @@ namespace PokeDexApp.Droid
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F070296
-			public const int DrawerArrowToggle_arrowHeadLength = 2131165846;
+			// aapt resource value: 0x7F080296
+			public const int DrawerArrowToggle_arrowHeadLength = 2131231382;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -6490,8 +7065,8 @@ namespace PokeDexApp.Droid
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F070305
-			public const int FloatingActionButton_backgroundTint = 2131165957;
+			// aapt resource value: 0x7F080305
+			public const int FloatingActionButton_backgroundTint = 2131231493;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -6499,8 +7074,8 @@ namespace PokeDexApp.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F070314
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131165972;
+			// aapt resource value: 0x7F080314
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131231508;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -6536,8 +7111,8 @@ namespace PokeDexApp.Droid
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F070023
-			public const int FontFamilyFont_android_font = 2131165219;
+			// aapt resource value: 0x7F080023
+			public const int FontFamilyFont_android_font = 2131230755;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -6554,8 +7129,8 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F070016
-			public const int FontFamily_fontProviderAuthority = 2131165206;
+			// aapt resource value: 0x7F080016
+			public const int FontFamily_fontProviderAuthority = 2131230742;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -6577,8 +7152,8 @@ namespace PokeDexApp.Droid
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F070316
-			public const int ForegroundLinearLayout_android_foreground = 2131165974;
+			// aapt resource value: 0x7F080316
+			public const int ForegroundLinearLayout_android_foreground = 2131231510;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -6597,8 +7172,8 @@ namespace PokeDexApp.Droid
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F070320
-			public const int LinearLayoutCompat_android_baselineAligned = 2131165984;
+			// aapt resource value: 0x7F080320
+			public const int LinearLayoutCompat_android_baselineAligned = 2131231520;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -6624,8 +7199,8 @@ namespace PokeDexApp.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F070330
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131166000;
+			// aapt resource value: 0x7F080330
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131231536;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -6646,8 +7221,8 @@ namespace PokeDexApp.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F070335
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131166005;
+			// aapt resource value: 0x7F080335
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131231541;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -6658,8 +7233,8 @@ namespace PokeDexApp.Droid
 					2130968688,
 					2130968732};
 			
-			// aapt resource value: 0x7F070568
-			public const int MediaRouteButton_android_minHeight = 2131166568;
+			// aapt resource value: 0x7F080568
+			public const int MediaRouteButton_android_minHeight = 2131232104;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -6678,8 +7253,8 @@ namespace PokeDexApp.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F070338
-			public const int MenuGroup_android_checkableBehavior = 2131166008;
+			// aapt resource value: 0x7F080338
+			public const int MenuGroup_android_checkableBehavior = 2131231544;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -6721,8 +7296,8 @@ namespace PokeDexApp.Droid
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F070345
-			public const int MenuItem_actionLayout = 2131166021;
+			// aapt resource value: 0x7F080345
+			public const int MenuItem_actionLayout = 2131231557;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -6801,8 +7376,8 @@ namespace PokeDexApp.Droid
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F070369
-			public const int MenuView_android_headerBackground = 2131166057;
+			// aapt resource value: 0x7F080369
+			public const int MenuView_android_headerBackground = 2131231593;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -6840,8 +7415,8 @@ namespace PokeDexApp.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070379
-			public const int NavigationView_android_background = 2131166073;
+			// aapt resource value: 0x7F080379
+			public const int NavigationView_android_background = 2131231609;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -6878,11 +7453,11 @@ namespace PokeDexApp.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F070394
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131166100;
+			// aapt resource value: 0x7F080394
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131231636;
 			
-			// aapt resource value: 0x7F070390
-			public const int PopupWindow_android_popupAnimationStyle = 2131166096;
+			// aapt resource value: 0x7F080390
+			public const int PopupWindow_android_popupAnimationStyle = 2131231632;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -6904,48 +7479,48 @@ namespace PokeDexApp.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F070005
-			public const int ProgressWheel_ahBarColor = 2131165189;
+			// aapt resource value: 0x7F080005
+			public const int ProgressWheel_ahBarColor = 2131230725;
 			
-			// aapt resource value: 0x7F070013
-			public const int ProgressWheel_ahBarLength = 2131165203;
+			// aapt resource value: 0x7F080013
+			public const int ProgressWheel_ahBarLength = 2131230739;
 			
-			// aapt resource value: 0x7F070012
-			public const int ProgressWheel_ahBarWidth = 2131165202;
+			// aapt resource value: 0x7F080012
+			public const int ProgressWheel_ahBarWidth = 2131230738;
 			
-			// aapt resource value: 0x7F070010
-			public const int ProgressWheel_ahCircleColor = 2131165200;
+			// aapt resource value: 0x7F080010
+			public const int ProgressWheel_ahCircleColor = 2131230736;
 			
-			// aapt resource value: 0x7F070009
-			public const int ProgressWheel_ahDelayMillis = 2131165193;
+			// aapt resource value: 0x7F080009
+			public const int ProgressWheel_ahDelayMillis = 2131230729;
 			
-			// aapt resource value: 0x7F070011
-			public const int ProgressWheel_ahRadius = 2131165201;
+			// aapt resource value: 0x7F080011
+			public const int ProgressWheel_ahRadius = 2131230737;
 			
-			// aapt resource value: 0x7F070006
-			public const int ProgressWheel_ahRimColor = 2131165190;
+			// aapt resource value: 0x7F080006
+			public const int ProgressWheel_ahRimColor = 2131230726;
 			
-			// aapt resource value: 0x7F070007
-			public const int ProgressWheel_ahRimWidth = 2131165191;
+			// aapt resource value: 0x7F080007
+			public const int ProgressWheel_ahRimWidth = 2131230727;
 			
-			// aapt resource value: 0x7F070008
-			public const int ProgressWheel_ahSpinSpeed = 2131165192;
+			// aapt resource value: 0x7F080008
+			public const int ProgressWheel_ahSpinSpeed = 2131230728;
 			
-			// aapt resource value: 0x7F070002
-			public const int ProgressWheel_ahText = 2131165186;
+			// aapt resource value: 0x7F080002
+			public const int ProgressWheel_ahText = 2131230722;
 			
-			// aapt resource value: 0x7F070003
-			public const int ProgressWheel_ahTextColor = 2131165187;
+			// aapt resource value: 0x7F080003
+			public const int ProgressWheel_ahTextColor = 2131230723;
 			
-			// aapt resource value: 0x7F070004
-			public const int ProgressWheel_ahTextSize = 2131165188;
+			// aapt resource value: 0x7F080004
+			public const int ProgressWheel_ahTextSize = 2131230724;
 			
 			public static int[] RecycleListView = new int[] {
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F070396
-			public const int RecycleListView_paddingBottomNoButtons = 2131166102;
+			// aapt resource value: 0x7F080396
+			public const int RecycleListView_paddingBottomNoButtons = 2131231638;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -6963,8 +7538,8 @@ namespace PokeDexApp.Droid
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F070399
-			public const int RecyclerView_android_descendantFocusability = 2131166105;
+			// aapt resource value: 0x7F080399
+			public const int RecyclerView_android_descendantFocusability = 2131231641;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -6999,14 +7574,14 @@ namespace PokeDexApp.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F070411
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131166225;
+			// aapt resource value: 0x7F080411
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131231761;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F070413
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166227;
+			// aapt resource value: 0x7F080413
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131231763;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -7027,8 +7602,8 @@ namespace PokeDexApp.Droid
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F070415
-			public const int SearchView_android_focusable = 2131166229;
+			// aapt resource value: 0x7F080415
+			public const int SearchView_android_focusable = 2131231765;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -7083,8 +7658,8 @@ namespace PokeDexApp.Droid
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F070433
-			public const int SnackbarLayout_android_maxWidth = 2131166259;
+			// aapt resource value: 0x7F080433
+			public const int SnackbarLayout_android_maxWidth = 2131231795;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -7099,8 +7674,8 @@ namespace PokeDexApp.Droid
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F070437
-			public const int Spinner_android_dropDownWidth = 2131166263;
+			// aapt resource value: 0x7F080437
+			public const int Spinner_android_dropDownWidth = 2131231799;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -7130,8 +7705,8 @@ namespace PokeDexApp.Droid
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F070443
-			public const int SwitchCompat_android_textOff = 2131166275;
+			// aapt resource value: 0x7F080443
+			public const int SwitchCompat_android_textOff = 2131231811;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -7177,8 +7752,8 @@ namespace PokeDexApp.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F070458
-			public const int TabItem_android_icon = 2131166296;
+			// aapt resource value: 0x7F080458
+			public const int TabItem_android_icon = 2131231832;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -7204,8 +7779,8 @@ namespace PokeDexApp.Droid
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F070462
-			public const int TabLayout_tabBackground = 2131166306;
+			// aapt resource value: 0x7F080462
+			public const int TabLayout_tabBackground = 2131231842;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -7267,8 +7842,8 @@ namespace PokeDexApp.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070479
-			public const int TextAppearance_android_fontFamily = 2131166329;
+			// aapt resource value: 0x7F080479
+			public const int TextAppearance_android_fontFamily = 2131231865;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -7324,8 +7899,8 @@ namespace PokeDexApp.Droid
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F070493
-			public const int TextInputLayout_android_hint = 2131166355;
+			// aapt resource value: 0x7F080493
+			public const int TextInputLayout_android_hint = 2131231891;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -7403,8 +7978,8 @@ namespace PokeDexApp.Droid
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F070510
-			public const int Toolbar_android_gravity = 2131166480;
+			// aapt resource value: 0x7F080510
+			public const int Toolbar_android_gravity = 2131232016;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -7502,8 +8077,8 @@ namespace PokeDexApp.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F070546
-			public const int ViewBackgroundHelper_android_background = 2131166534;
+			// aapt resource value: 0x7F080546
+			public const int ViewBackgroundHelper_android_background = 2131232070;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -7516,8 +8091,8 @@ namespace PokeDexApp.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F070550
-			public const int ViewStubCompat_android_id = 2131166544;
+			// aapt resource value: 0x7F080550
+			public const int ViewStubCompat_android_id = 2131232080;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -7525,8 +8100,8 @@ namespace PokeDexApp.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F070540
-			public const int View_android_focusable = 2131166528;
+			// aapt resource value: 0x7F080540
+			public const int View_android_focusable = 2131232064;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;

@@ -15,6 +15,8 @@ namespace PokeDexApp
         public MsPageDetail()
         {
             InitializeComponent();
+            var di =  DependencyService.Get<IDeviceInfo>();
+            LabelTest.Text = di.GetPlatform();
         }
     }
 }

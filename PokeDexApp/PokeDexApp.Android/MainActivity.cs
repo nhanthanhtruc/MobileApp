@@ -7,6 +7,9 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Plugin.Permissions;
+using Plugin.CurrentActivity;
+using PokeDexApp.Droid.Services;
+using Android.Content;
 
 namespace PokeDexApp.Droid
 {
@@ -19,6 +22,7 @@ namespace PokeDexApp.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+            CrossCurrentActivity.Current.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(true);
             Acr.UserDialogs.UserDialogs.Init(this);
@@ -29,6 +33,12 @@ namespace PokeDexApp.Droid
         {
             PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            if (FacebookServices.Current != null)
+                FacebookServices.Current.CallbackManager.OnActivityResult(requestCode, (int)resultCode, data);
+            
         }
     }
 }
